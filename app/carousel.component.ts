@@ -81,9 +81,9 @@ export class CSSCarouselComponent {
 }
 
 var IMAGES: Image[] = [
-  { "title": "Image 1", "url": "images/"},
-  { "title": "Image 2", "url": "images/"},
-  { "title": "Image 3", "url": "images/"},
-  { "title": "Image 4", "url": "images/"},
-  { "title": "Image 5", "url": "images/"}
+  { "title": "Image 1", "url": "images/eye1.jpg"},
+  { "title": "Image 2", "url": "images/fingerprint2.jpg"},
+  { "title": "Image 3", "url": "images/hand3.jpg"},
+  { "title": "Image 4", "url": "images/business4.jpg"},
+  { "title": "Image 5", "url": "images/handshake5.jpg"}
 ];
