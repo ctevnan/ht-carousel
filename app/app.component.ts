@@ -1,6 +1,7 @@
-import {Component} from 'angular2/core';
+import { Component } from 'angular2/core';
 
-import {CSSCarouselComponent} from './carousel.component';
+import { CSSCarouselComponent } from './carousel.component';
+import { HeaderComponent } from './header.component';
 
 @Component({
   selector: 'my-app',
@@ -15,6 +16,6 @@ import {CSSCarouselComponent} from './carousel.component';
     margin: 60px auto;
   }
 `],
-  directives: [CSSCarouselComponent]
+  directives: [CSSCarouselComponent, HeaderComponent]
 })
 export class AppComponent { }
